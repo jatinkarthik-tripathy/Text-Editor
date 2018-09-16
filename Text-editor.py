@@ -117,7 +117,7 @@ formatting.add_command(label="Font", command=font_changer)
 
 help_menu = Menu(menu)
 menu.add_cascade(label='Help', menu=help_menu)
-help_menu.add_command(label="Tutorial", command=tutorial)
+# help_menu.add_command(label="Tutorial", command=tutorial)
 
 menu.add_cascade(label='About', command=about)
 
